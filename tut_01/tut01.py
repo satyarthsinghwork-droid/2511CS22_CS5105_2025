@@ -219,7 +219,7 @@ if st.button("Submit"):
 
 ########### CREATING EXCEL OF STATS FOR UNIFORM AND BRANCHWISE MIX
        
-        student_groups_folder = "Student_groups"
+        student_groups_folder = "student_groups"
         uniform_mix_folder = "uniform_mix"
         branchwise_mix_folder = "branchwise_mix"
 
