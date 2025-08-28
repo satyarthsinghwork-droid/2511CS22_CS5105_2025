@@ -311,7 +311,7 @@ if st.button("Submit"):
 
 
     def create_zip_with_folders(zip_name="assignment.zip"):
-        folders = ["Student_groups", "branchwise_mix", "uniform_mix"]
+        folders = ["student_groups", "branchwise_mix", "uniform_mix"]
         excel_file = "final_groups.xlsx"  # the extra Excel file to include
 
         with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as zipf:
