@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  streamlit:
+    build: .
+    container_name: btp-mtp-allocation-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

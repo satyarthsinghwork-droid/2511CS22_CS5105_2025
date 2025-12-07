@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv
+.vscode
+.idea
+*.xlsx
+output/
+photos/        # optionally; you can mount it from host instead
